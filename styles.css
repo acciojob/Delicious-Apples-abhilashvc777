@@ -1,1 +1,63 @@
 /* your code here */
+body{
+	background-color:lightgreen;
+}
+.product{
+	border:1px solid;
+	display:flex;
+	height:300px;
+	width:350px;
+	position:absolute;
+	left:100px;
+	top:100px;
+	background-color:white;
+}
+
+li{
+	list-style:none;
+	border:1px solid;
+	flex:1;
+}
+.product__photo{
+	height:260px;
+	width:45%;
+	margin-left:-20px;
+	margin-top:20px;
+	background-color:white;
+	box-shadow: 1px 1px 10px;
+	border-radius:3px
+}
+.product__info{
+	border:1px solid blue;
+	height:100%;
+	width:100%;
+}
+.photo-container{
+	height:100%;
+    width:100%;
+}
+.photo-main{
+	height:80%;
+	width:100%;
+	background-color:yellow;
+}
+.photo-main img{
+	width:155px;
+	margin-left:-28px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	font-size:0.8em;
+	padding:3px;
+}
+.photo-album ul {
+	display:flex;
+	position:relative;
+	bottom:6px;
+	right:10px;
+	gap:2px;
+}
+.photo-album ul li img{
+	width:26px;
+}
